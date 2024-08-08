@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CustomTwo.MainActivityCustomTwo"
+    android:orientation="vertical">
+
+    <SearchView
+        android:id="@+id/search_viewTwo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:queryHint="Enter Name"
+        android:background="#BDC1C3"
+        android:layout_marginTop="30dp"
+        android:iconifiedByDefault="false"/>
+    <ListView
+        android:id="@+id/list_viewTwo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@color/black"
+        android:dividerHeight="2dp"/>
+
+</LinearLayout>
